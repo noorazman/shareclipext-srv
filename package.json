@@ -1,0 +1,29 @@
+{
+  "name": "shareclipext-srv",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noorazman/shareclipext-srv.git"
+  },
+  "author": "Noorazman Kamaruddin <noorazman.kamaruddin@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.1"
+  },
+  "bin": {
+    "shareclipext": "app.js"
+  },
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/noorazman/shareclipext-srv/issues"
+  },
+  "homepage": "https://github.com/noorazman/shareclipext-srv#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
+}
